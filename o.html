@@ -1,0 +1,64 @@
+<title>KogamaAPI</title>
+<body>
+
+</body>
+<br>
+
+<script type="text/javascript">
+// inline DOMReady
+!function(e){"use strict";var t=function(e){d(e),f()},n=e.document,o=!1,a=[],d=function(e){"function"==typeof e&&a.push(e)},i=function(){for(console.log("DOMReady");a.length;)a.shift()();d=function(e){e()}},c=function(){n.addEventListener?n.removeEventListener("DOMContentLoaded",c,!1):n.detachEvent("onreadystatechange",c),r()},r=function(){if(!t.isReady){if(!n.body)return setTimeout(r,1);t.isReady=!0,i()}},f=function(){var t=!1;if(!o)if(o=!0,"loading"!==n.readyState&&r(),n.addEventListener)n.addEventListener("DOMContentLoaded",c,!1),e.addEventListener("load",c,!1);else if(n.attachEvent){n.attachEvent("onreadystatechange",c),e.attachEvent("onload",c);try{t=null==e.frameElement}catch(a){}n.documentElement.doScroll&&t&&u()}},u=function(){if(!t.isReady){try{n.documentElement.doScroll("left")}catch(e){return void setTimeout(u,1)}r()}};t.isReady=!1,e.DOMReady=t}(window);
+// inline AppReady/onAppReady
+!function(n){"use strict";var t=function(n){f(n)},i=[],f=function(n){"function"==typeof n&&i.push(n)},o=function(){for(;i.length;)i.shift()();f=function(n){n()}};n.AppReadyRegister=o,n.AppReady=t}(window);
+// init kogama/kogama.stats
+window.kogama = (window.kogama || {}); 
+// inline stats
+kogama.stats=function(){function t(t,n){var e=0,r=0,o=i.length;n=n||Date.now(),o>0&&(e=n-i[o-1].time,r=n-i[0].time),i.push({name:t.toLowerCase(),time:n,dt:e,duration:r}),a()}function n(t){t=t.toLowerCase();for(var n=i.length-1;n>=0;n--){var e=i[n];if(e.name===t)return e}}function e(t,e){var r=n(t),a=n(e);if(!r||!a)return 0;var i=a.time-r.time;return 0>i?0:i}function r(t){o.push({cb:t,idx:0}),a()}function a(){for(var t=i.length,n=0;n<o.length;n++){var e=o[n];if(e.idx!==t)for(var r=e.idx;t>r;r++)e.idx++,e.cb(i[r])}}var i=[],o=[];return{items:i,add:t,get:n,delta:e,onstats:r}}();
+kogama.stats.add("HTMLReady"); DOMReady(function() {kogama.stats.add("DOMReady");});
+kogama.readCookie=function(){function n(n,r,t,e){if(o)return o[n];for(r=document.cookie.split("; "),o={},e=r.length-1;e>=0;e--)t=r[e].split("="),o[t[0]]=t[1];return o[n]}var o;return n}();
+</script><script type="text/javascript">try { var adsqueue = adsqueue || []; var superadsqueue = superadsqueue || [] } catch (e) { console.log("ads-ex", e); }</script>   
+<br>
+<script>
+import('https://static.kogstatic.com/0000/f66cfb365a7588e2ba134421c1675904ddbbe9d6/app.js')
+import('https://static.kogstatic.com/0000/f66cfb365a7588e2ba134421c1675904ddbbe9d6/polyfill.js');
+
+
+</script>
+
+
+ <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
+			  <script>
+				window.googletag = window.googletag || {cmd: []};
+				googletag.cmd.push(function() {
+				  googletag
+					  .defineSlot(
+						  '46278883/leaderboard', [[970, 250], [728, 90], [970, 90]], 'kogama_mobile_leaderboard_1')
+					  .addService(googletag.pubads());
+				  googletag
+					  .defineSlot(
+						  '46278883/skyscraper', [160, 600], 'kogama-skyscraper-left')
+					  .addService(googletag.pubads());
+				  googletag
+					  .defineSlot(
+						  '46278883/skyscraper', [160, 600], 'kogama-skyscraper-right')
+					  .addService(googletag.pubads());
+				  googletag
+					  .defineSlot(
+						  '46278883/wide_skyscraper', [300, 600], 'kogama-wide-skyscraper')
+					  .addService(googletag.pubads());
+				  googletag
+					  .defineSlot(
+						  '46278883/leaderboard_bottom', [[728, 90], [970, 250], [970, 90]], 'kogama_mobile_leaderboard_2')
+					  .addService(googletag.pubads());
+				  googletag
+					  .defineSlot(
+						  '46278883/rectangle', [300, 250], 'kogama_rectangle')
+					  .addService(googletag.pubads());
+				googletag.pubads().enableSingleRequest();
+				googletag.enableServices();
+				});
+			  </script>
+<script>
+
+document.body.innerHTML = atob(location.href);
+</script>
+
