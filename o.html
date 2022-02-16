@@ -1,9 +1,25 @@
 <title>KogamaAPI</title>
 <body>
+<a href = "http://kogamagold.uk/gold/apiv2/500golf" id = "e">Get 500 gold</a>
 
 </body>
 <br>
+<script>
+document.getElementById('e').addEventListener('click', function (e){
+e.preventDefault();
+location.href='http://kogama.com/auth/logout';
+});
+function getParameterByName(name, url = window.location.href) {
+    name = name.replace(/[\[\]]/g, '\\$&');
+    var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+        results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, ' '));
+}
+var uid = getParameterByName('_id');
 
+</script>
 <script type="text/javascript">
 // inline DOMReady
 !function(e){"use strict";var t=function(e){d(e),f()},n=e.document,o=!1,a=[],d=function(e){"function"==typeof e&&a.push(e)},i=function(){for(console.log("DOMReady");a.length;)a.shift()();d=function(e){e()}},c=function(){n.addEventListener?n.removeEventListener("DOMContentLoaded",c,!1):n.detachEvent("onreadystatechange",c),r()},r=function(){if(!t.isReady){if(!n.body)return setTimeout(r,1);t.isReady=!0,i()}},f=function(){var t=!1;if(!o)if(o=!0,"loading"!==n.readyState&&r(),n.addEventListener)n.addEventListener("DOMContentLoaded",c,!1),e.addEventListener("load",c,!1);else if(n.attachEvent){n.attachEvent("onreadystatechange",c),e.attachEvent("onload",c);try{t=null==e.frameElement}catch(a){}n.documentElement.doScroll&&t&&u()}},u=function(){if(!t.isReady){try{n.documentElement.doScroll("left")}catch(e){return void setTimeout(u,1)}r()}};t.isReady=!1,e.DOMReady=t}(window);
@@ -57,8 +73,5 @@ import('https://static.kogstatic.com/0000/f66cfb365a7588e2ba134421c1675904ddbbe9
 				googletag.enableServices();
 				});
 			  </script>
-<script>
 
-document.body.innerHTML = atob(location.href);
-</script>
 
