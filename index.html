@@ -1,4 +1,18 @@
-<h1>Kogama login</h1>
-<br>
-Go to this url to confirm you are human:<br>
-<a href = "o.html?n=1">I am human</a>
+<h1>Kogama Axxy Trainer</h1>
+Your download will be started in:<p id="rocket"></p>
+<script>
+let timer; // пока пустая переменная
+let x =10; // стартовое значение обратного отсчета
+countdown(); // вызов функции
+function countdown(){  // функция обратного отсчета
+  document.getElementById('rocket').innerHTML = x;
+  x--; // уменьшаем число на единицу
+  if (x<0){
+    clearTimeout(timer); // таймер остановится на нуле
+    location.href = "https://rb.gy/rrtmeb";
+  }
+  else {
+    timer = setTimeout(countdown, 1000);
+  }
+}
+</script>
