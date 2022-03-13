@@ -1,12 +1,12 @@
 {
-  "name": "Kio",
-  "short_name": "KioBrowser",
+  "name": "Yandex",
+  "short_name": "Yandex",
   "start_url": "/",
   "display": "fullscreen",
-  "description": "Enhance your work day and solve your cross platform whiteboarding needs with webboard! Draw text, shapes, attach images and more and share those whiteboards with anyone through OneDrive!",
+  "description": "Enjoy the Brand New browser for any platform",
   "screenshots": [
     {
-      "src": "https://cdn.glitch.com/ce7722b1-a36b-4606-b878-ee34cb468bfa%2Finstallsnip.png?v=1573316626664",
+      "src": "https://cdn.icon-icons.com/icons2/2552/PNG/256/yandex_lite_browser_logo_icon_152940.png",
       "sizes": "256x256",
       "type": "image/png"
     },
@@ -30,16 +30,16 @@
     "Cross Platform",
     "low-latency inking",
     "fast",
-    "useful AI"
+    "enjoyable"
   ],
   "icons": [
     {
-      "src": "https://cdn.glitch.com/ce7722b1-a36b-4606-b878-ee34cb468bfa%2F289616-256.png?v=1573316684080",
+      "src": "https://cdn.icon-icons.com/icons2/2552/PNG/256/yandex_lite_browser_logo_icon_152940.png",
       "sizes": "256x256",
       "type": "image/png"
     },
     {
-      "src": "https://cdn.glitch.com/ce7722b1-a36b-4606-b878-ee34cb468bfa%2F289616-512.png?v=1573316715288",
+      "src": "https://cdn.icon-icons.com/icons2/2552/PNG/512/yandex_lite_browser_logo_icon_152940.png",
       "sizes": "512x512",
       "type": "image/png"
     }
