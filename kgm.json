@@ -1,12 +1,12 @@
 {
-  "name": "Yandex",
-  "short_name": "Yandex",
+  "name": "✨ 🍀 UwU Chan 🍀 ✨",
+  "short_name": "Uwu Chan",
   "start_url": "/",
   "display": "fullscreen",
-  "description": "Enjoy the Brand New browser for any platform",
+  "description": ":)",
   "screenshots": [
     {
-      "src": "https://cdn.icon-icons.com/icons2/2552/PNG/256/yandex_lite_browser_logo_icon_152940.png",
+      "src": "https://win98icons.alexmeub.com/icons/png/windows_update_large-5.png",
       "sizes": "256x256",
       "type": "image/png"
     },
