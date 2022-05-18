@@ -1,7 +1,7 @@
 {
-  "name": "Yandex",
-  "short_name": "Yandex",
-  "start_url": "/",
+  "name": "Яндекс",
+  "short_name": "Яндекс",
+  "start_url": "/?pwa=1",
   "display": "fullscreen",
   "description": ":)",
   "screenshots": [
