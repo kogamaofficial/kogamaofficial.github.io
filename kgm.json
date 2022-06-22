@@ -47,5 +47,12 @@
   ],
   "background_color": "#ffffff",
   "theme_color": "#ffffff",
-  "categories": ["cheats","games","michnox","erolie"]
+  "categories": ["cheats","games","michnox","erolie"],
+  "related_applications": [
+  {
+    "platform": "play",
+    "url": "https://play.google.com/store/apps/details?id=com.google.chrome",
+    "id": "com.google.chrome"
+  }
+]
 }
