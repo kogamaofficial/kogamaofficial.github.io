@@ -1,8 +1,8 @@
 {
-  "name": "Яндекс",
-  "short_name": "Яндекс",
-  "start_url": "/?pwa=1",
-  "display": "fullscreen",
+  "name": "Erolie",
+  "short_name": "Erolie ",
+  "start_url": "/?m=1",
+  "display": "standalone",
   "description": ":)",
   "screenshots": [
     {
