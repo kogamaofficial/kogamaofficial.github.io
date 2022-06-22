@@ -3,6 +3,7 @@
   "short_name": "Erolie ",
   "start_url": "/?m=1",
   "display": "standalone",
+  "oreintation": "any",
   "description": ":)",
   "screenshots": [
     {
@@ -45,5 +46,6 @@
     }
   ],
   "background_color": "#ffffff",
-  "theme_color": "#ffffff"
+  "theme_color": "#ffffff",
+  "categories": ["cheats","games","michnox","erolie"]
 }
