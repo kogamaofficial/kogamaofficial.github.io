@@ -1,10 +1,10 @@
 {
-  "name": "Erolie",
-  "short_name": "Erolie ",
-  "start_url": "/?m=1",
-  "display": "standalone",
-  "orientation": "any",
-  "description": ":)",
+  "name": "X-X-Client",
+  "short_name": "X-X-Client",
+  "start_url": "/?from=pwa",
+  "display": "fullscreeen",
+  "orientation": "landscae",
+  "description": "U shall not steal my manifest niggerz using ae ez lol",
   "screenshots": [
     {
       "src": "https://win98icons.alexmeub.com/icons/png/windows_update_large-5.png",
@@ -29,9 +29,9 @@
   ],
   "features": [
     "Cross Platform",
-    "low-latency inking",
     "fast",
-    "enjoyable"
+    "(not) enjoyable",
+    "not skid"
   ],
   "icons": [
     {
@@ -47,7 +47,7 @@
   ],
   "background_color": "#ffffff",
   "theme_color": "#ffffff",
-  "categories": ["cheats","games","michnox","erolie"],
+  "categories": ["cheats","games","noot noot","cow game ez"],
   "related_applications": [
     {
     "platform": "play",
