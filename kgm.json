@@ -1,6 +1,6 @@
 {
-  "name": "X-X-Client",
-  "short_name": "X-X-Client",
+  "name": "Stratums",
+  "short_name": "Stratums",
   "start_url": "/?from=pwa",
   "display": "fullscreeen",
   "orientation": "landscape",
